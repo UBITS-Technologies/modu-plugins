@@ -27,7 +27,11 @@ codex plugin marketplace add UBITS-Technologies/modu-plugins
 codex plugin add modu@modu
 ```
 
-Codex opens Modu sign-in in your browser when the plugin is installed. To sign in again later, run `codex mcp login modu`.
+Then sign in to Modu in your browser:
+
+```
+codex mcp login modu
+```
 
 ## Claude (web, desktop and mobile)
 
