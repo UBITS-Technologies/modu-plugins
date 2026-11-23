@@ -1,0 +1,37 @@
+{
+  "name": "modu",
+  "version": "1.0.0",
+  "description": "Run your Discord servers, Slack workspaces and WhatsApp numbers with Modu: your agent plans the change, Modu checks every step and does the work, and asks before anything risky.",
+  "author": {
+    "name": "UBITS LIMITED",
+    "url": "https://modu.ubits.tech"
+  },
+  "homepage": "https://modu.ubits.tech/connect-ai",
+  "repository": "https://github.com/UBITS-Technologies/modu-plugins",
+  "license": "MIT",
+  "keywords": ["modu", "discord", "slack", "whatsapp", "mcp", "community", "moderation", "tickets"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Modu",
+    "shortDescription": "Set up and run Discord, Slack and WhatsApp",
+    "longDescription": "Connect Codex to your Modu account. Codex reads your Discord server, plans the change and sends the plan to Modu, which checks every step against your plan and Discord's rules, does the work and waits for your approval before anything destructive. Plans Codex makes use no Modu AI credits. Also answers support tickets and runs your Slack workspaces and WhatsApp numbers.",
+    "developerName": "UBITS LIMITED",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#F2852F",
+    "brandColorDark": "#F2852F",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png",
+    "screenshots": [],
+    "defaultPrompt": [
+      "List my Modu servers and give me an overview of the busiest one",
+      "Set up my new server as a developer community with roles and a ticket system",
+      "Show my open tickets and draft a reply to the oldest one"
+    ],
+    "websiteURL": "https://modu.ubits.tech",
+    "privacyPolicyURL": "https://modu.ubits.tech/privacy",
+    "termsOfServiceURL": "https://modu.ubits.tech/terms",
+    "supportURL": "https://modu.ubits.tech/docs"
+  }
+}

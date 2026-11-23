@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "modu": {
+      "type": "http",
+      "url": "https://modu.ubits.tech/mcp/all"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "modu",
+  "version": "1.0.0",
+  "description": "Run your Discord servers, Slack workspaces and WhatsApp numbers with Modu: your agent plans the change, Modu checks every step and does the work, and asks before anything risky.",
+  "author": {
+    "name": "UBITS LIMITED",
+    "url": "https://modu.ubits.tech"
+  },
+  "homepage": "https://modu.ubits.tech/connect-ai",
+  "repository": "https://github.com/UBITS-Technologies/modu-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://modu.ubits.tech/privacy",
+  "keywords": [
+    "modu",
+    "discord",
+    "slack",
+    "whatsapp",
+    "mcp",
+    "community",
+    "moderation",
+    "tickets"
+  ],
+  "mcpServers": "./.mcp.json"
+}

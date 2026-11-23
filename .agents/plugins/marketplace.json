@@ -1,0 +1,20 @@
+{
+  "name": "modu",
+  "interface": {
+    "displayName": "Modu"
+  },
+  "plugins": [
+    {
+      "name": "modu",
+      "source": {
+        "source": "local",
+        "path": "./plugins/modu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

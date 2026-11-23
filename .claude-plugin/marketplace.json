@@ -1,0 +1,19 @@
+{
+  "name": "modu",
+  "owner": {
+    "name": "UBITS LIMITED",
+    "url": "https://modu.ubits.tech"
+  },
+  "metadata": {
+    "description": "Modu for Claude Code: run Discord, Slack and WhatsApp from your agent."
+  },
+  "plugins": [
+    {
+      "name": "modu",
+      "source": "./plugins/modu",
+      "description": "Connects Claude Code to your Modu account (Discord servers, tickets, Slack workspaces, WhatsApp numbers) with a skill for planning changes Modu checks and applies.",
+      "category": "productivity",
+      "homepage": "https://modu.ubits.tech/connect-ai"
+    }
+  ]
+}
